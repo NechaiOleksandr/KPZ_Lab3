@@ -3,6 +3,29 @@
 public enum DisplayType { Block, Inline }
 public enum ClosingType { Normal, SelfClosing }
 
+
+public interface IImageLoadingStrategy
+{
+    void Load(string href);
+}
+
+public class FileSystemImageLoadingStrategy : IImageLoadingStrategy
+{
+    public void Load(string href)
+    {
+        Console.WriteLine($"Завантаження зображення з локального диска за шляхом: {href}");
+    }
+}
+
+public class NetworkImageLoadingStrategy : IImageLoadingStrategy
+{
+    public void Load(string href)
+    {
+        Console.WriteLine($"Завантаження зображення з інтернету за посиланням: {href}");
+    }
+}
+
+
 public abstract class LightNode
 {
     public abstract string OuterHTML { get; }
@@ -93,12 +116,50 @@ public class LightElementNode : LightNode
     }
 }
 
+
+public class LightImageNode : LightElementNode
+{
+    private IImageLoadingStrategy _loader;
+    private string _href;
+
+    public LightImageNode(string href) : base("img", DisplayType.Inline, ClosingType.SelfClosing)
+    {
+        _href = href;
+
+        if (href.StartsWith("http://") || href.StartsWith("https://"))
+        {
+            _loader = new NetworkImageLoadingStrategy();
+        }
+        else
+        {
+            _loader = new FileSystemImageLoadingStrategy();
+        }
+    }
+
+    public void LoadImage()
+    {
+        _loader.Load(_href);
+    }
+
+    public override string OuterHTML
+    {
+        get
+        {
+            string classes = CssClasses.Any() ? $" class=\"{string.Join(" ", CssClasses)}\"" : "";
+            return $"<{TagName} src=\"{_href}\"{classes}>";
+        }
+    }
+}
+
+
 class Program
 {
     static void Main(string[] args)
     {
         Console.OutputEncoding = Encoding.UTF8;
 
+        Console.WriteLine("Паттерн 'Спостерігач'");
+        
         var button = new LightElementNode("button", DisplayType.Inline, ClosingType.Normal);
         button.CssClasses.Add("btn-primary");
         button.Add(new LightTextNode("Натисни мене"));
@@ -123,5 +184,20 @@ class Program
         button.TriggerEvent("click");
 
         button.TriggerEvent("keydown");
+
+
+        Console.WriteLine("\n\nПаттерн 'Стратегія'");
+
+        var networkImage = new LightImageNode("https://example.com/logo.png");
+        Console.WriteLine("Структура елемента");
+        Console.WriteLine(networkImage.OuterHTML);
+        networkImage.LoadImage();
+
+        Console.WriteLine();
+
+        var localImage = new LightImageNode("C:/Images/photo.jpg");
+        Console.WriteLine("Структура елемента");
+        Console.WriteLine(localImage.OuterHTML);
+        localImage.LoadImage();
     }
 }
