@@ -12,3 +12,4 @@ C:\Users\lamme\OneDrive\Рабочий стол\Лаби\КПЗ\KPZ_Lab3\Flyweig
 C:\Users\lamme\OneDrive\Рабочий стол\Лаби\КПЗ\KPZ_Lab3\Flyweight\obj\Debug\net8.0\Flyweight.pdb
 C:\Users\lamme\OneDrive\Рабочий стол\Лаби\КПЗ\KPZ_Lab3\Flyweight\obj\Debug\net8.0\Flyweight.genruntimeconfig.cache
 C:\Users\lamme\OneDrive\Рабочий стол\Лаби\КПЗ\KPZ_Lab3\Flyweight\obj\Debug\net8.0\ref\Flyweight.dll
+C:\Users\lamme\OneDrive\Рабочий стол\Лаби\КПЗ\KPZ_Lab3\Flyweight\obj\Debug\net8.0\Flyweight.sourcelink.json

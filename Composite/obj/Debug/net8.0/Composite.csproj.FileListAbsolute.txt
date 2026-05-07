@@ -12,3 +12,4 @@ C:\Users\lamme\OneDrive\Рабочий стол\Лаби\КПЗ\KPZ_Lab3\Composi
 C:\Users\lamme\OneDrive\Рабочий стол\Лаби\КПЗ\KPZ_Lab3\Composite\obj\Debug\net8.0\Composite.pdb
 C:\Users\lamme\OneDrive\Рабочий стол\Лаби\КПЗ\KPZ_Lab3\Composite\obj\Debug\net8.0\Composite.genruntimeconfig.cache
 C:\Users\lamme\OneDrive\Рабочий стол\Лаби\КПЗ\KPZ_Lab3\Composite\obj\Debug\net8.0\ref\Composite.dll
+C:\Users\lamme\OneDrive\Рабочий стол\Лаби\КПЗ\KPZ_Lab3\Composite\obj\Debug\net8.0\Composite.sourcelink.json
