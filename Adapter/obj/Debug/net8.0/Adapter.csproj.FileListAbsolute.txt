@@ -1,0 +1,14 @@
+C:\Users\lamme\OneDrive\Рабочий стол\Лаби\КПЗ\KPZ_Lab3\Adapter\bin\Debug\net8.0\Adapter.exe
+C:\Users\lamme\OneDrive\Рабочий стол\Лаби\КПЗ\KPZ_Lab3\Adapter\bin\Debug\net8.0\Adapter.deps.json
+C:\Users\lamme\OneDrive\Рабочий стол\Лаби\КПЗ\KPZ_Lab3\Adapter\bin\Debug\net8.0\Adapter.runtimeconfig.json
+C:\Users\lamme\OneDrive\Рабочий стол\Лаби\КПЗ\KPZ_Lab3\Adapter\bin\Debug\net8.0\Adapter.dll
+C:\Users\lamme\OneDrive\Рабочий стол\Лаби\КПЗ\KPZ_Lab3\Adapter\bin\Debug\net8.0\Adapter.pdb
+C:\Users\lamme\OneDrive\Рабочий стол\Лаби\КПЗ\KPZ_Lab3\Adapter\obj\Debug\net8.0\Adapter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lamme\OneDrive\Рабочий стол\Лаби\КПЗ\KPZ_Lab3\Adapter\obj\Debug\net8.0\Adapter.AssemblyInfoInputs.cache
+C:\Users\lamme\OneDrive\Рабочий стол\Лаби\КПЗ\KPZ_Lab3\Adapter\obj\Debug\net8.0\Adapter.AssemblyInfo.cs
+C:\Users\lamme\OneDrive\Рабочий стол\Лаби\КПЗ\KPZ_Lab3\Adapter\obj\Debug\net8.0\Adapter.csproj.CoreCompileInputs.cache
+C:\Users\lamme\OneDrive\Рабочий стол\Лаби\КПЗ\KPZ_Lab3\Adapter\obj\Debug\net8.0\Adapter.dll
+C:\Users\lamme\OneDrive\Рабочий стол\Лаби\КПЗ\KPZ_Lab3\Adapter\obj\Debug\net8.0\refint\Adapter.dll
+C:\Users\lamme\OneDrive\Рабочий стол\Лаби\КПЗ\KPZ_Lab3\Adapter\obj\Debug\net8.0\Adapter.pdb
+C:\Users\lamme\OneDrive\Рабочий стол\Лаби\КПЗ\KPZ_Lab3\Adapter\obj\Debug\net8.0\Adapter.genruntimeconfig.cache
+C:\Users\lamme\OneDrive\Рабочий стол\Лаби\КПЗ\KPZ_Lab3\Adapter\obj\Debug\net8.0\ref\Adapter.dll

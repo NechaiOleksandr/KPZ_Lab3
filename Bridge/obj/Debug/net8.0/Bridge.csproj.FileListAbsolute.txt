@@ -1,0 +1,14 @@
+C:\Users\lamme\OneDrive\Рабочий стол\Лаби\КПЗ\KPZ_Lab3\Bridge\bin\Debug\net8.0\Bridge.exe
+C:\Users\lamme\OneDrive\Рабочий стол\Лаби\КПЗ\KPZ_Lab3\Bridge\bin\Debug\net8.0\Bridge.deps.json
+C:\Users\lamme\OneDrive\Рабочий стол\Лаби\КПЗ\KPZ_Lab3\Bridge\bin\Debug\net8.0\Bridge.runtimeconfig.json
+C:\Users\lamme\OneDrive\Рабочий стол\Лаби\КПЗ\KPZ_Lab3\Bridge\bin\Debug\net8.0\Bridge.dll
+C:\Users\lamme\OneDrive\Рабочий стол\Лаби\КПЗ\KPZ_Lab3\Bridge\bin\Debug\net8.0\Bridge.pdb
+C:\Users\lamme\OneDrive\Рабочий стол\Лаби\КПЗ\KPZ_Lab3\Bridge\obj\Debug\net8.0\Bridge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lamme\OneDrive\Рабочий стол\Лаби\КПЗ\KPZ_Lab3\Bridge\obj\Debug\net8.0\Bridge.AssemblyInfoInputs.cache
+C:\Users\lamme\OneDrive\Рабочий стол\Лаби\КПЗ\KPZ_Lab3\Bridge\obj\Debug\net8.0\Bridge.AssemblyInfo.cs
+C:\Users\lamme\OneDrive\Рабочий стол\Лаби\КПЗ\KPZ_Lab3\Bridge\obj\Debug\net8.0\Bridge.csproj.CoreCompileInputs.cache
+C:\Users\lamme\OneDrive\Рабочий стол\Лаби\КПЗ\KPZ_Lab3\Bridge\obj\Debug\net8.0\Bridge.dll
+C:\Users\lamme\OneDrive\Рабочий стол\Лаби\КПЗ\KPZ_Lab3\Bridge\obj\Debug\net8.0\refint\Bridge.dll
+C:\Users\lamme\OneDrive\Рабочий стол\Лаби\КПЗ\KPZ_Lab3\Bridge\obj\Debug\net8.0\Bridge.pdb
+C:\Users\lamme\OneDrive\Рабочий стол\Лаби\КПЗ\KPZ_Lab3\Bridge\obj\Debug\net8.0\Bridge.genruntimeconfig.cache
+C:\Users\lamme\OneDrive\Рабочий стол\Лаби\КПЗ\KPZ_Lab3\Bridge\obj\Debug\net8.0\ref\Bridge.dll
